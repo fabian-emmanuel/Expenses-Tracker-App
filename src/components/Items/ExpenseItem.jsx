@@ -1,10 +1,18 @@
 import React from 'react';
-import './expenseItem.sass'
+import './sass/ExpenseItem.sass'
+import ExpenseDate from "./ExpenseDate";
 
 function ExpenseItem(props) {
+
   return (
-     <div>
-       <h3>This is a test item</h3>
+     <div className="expense-item">
+       <ExpenseDate date={props.date}/>
+       <div className="expense-item_description">
+         <h2>{props.title}</h2>
+       </div>
+       <div className="expense-item__price">
+         ${props.amount}
+       </div>
      </div>
   );
 }
