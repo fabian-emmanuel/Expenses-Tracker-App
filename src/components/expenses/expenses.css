@@ -1,16 +1,16 @@
 /*
 Error: File to import not found or unreadable: /src/sass/variables.
-        on line 1 of ExpenseItem.sass
+        on line 1 of Items.sass
 
 1: @import '/src/sass/variables'
 2: 
-3: .expense-item
-4:   display: flex
-5:   justify-content: space-between
-6:   align-items: center
+3: 
+4: // ExpenseItem styles
+5: .expense-item
+6:   display: flex
 
 Backtrace:
-ExpenseItem.sass:1
+Items.sass:1
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -48,4 +48,4 @@ ExpenseItem.sass:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: /src/sass/variables.\A         on line 1 of ExpenseItem.sass\A \A 1: @import '/src/sass/variables'\A 2: \A 3: .expense-item\A 4:   display: flex\A 5:   justify-content: space-between\A 6:   align-items: center"; }
+  content: "Error: File to import not found or unreadable: /src/sass/variables.\A         on line 1 of Items.sass\A \A 1: @import '/src/sass/variables'\A 2: \A 3: \A 4: // ExpenseItem styles\A 5: .expense-item\A 6:   display: flex"; }
