@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19258a02-d152-492f-ac5f-82e129bcca40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Items/Items.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Items/Items.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Items/Items.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Items/.sass-cache/cb0782cb7720c9aade50f0643379a7d32495b4a5/ExpenseItem.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Items/.sass-cache/cb0782cb7720c9aade50f0643379a7d32495b4a5/ExpenseItem.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Items/ExpenseItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Items/ExpenseItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Items/expenseItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Items/expenseItem.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Items/expenseItem.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expenses/ExpenseDate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expenses/ExpenseDate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expenses/ExpenseItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expenses/ExpenseItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expenses/expenses.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expenses/expenses.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uQn366iHDisCPP4ewil471Pmpt" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -47,23 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sass" />
       <recent name="$PROJECT_DIR$/src/components/Items" />
+      <recent name="$PROJECT_DIR$/src/components/Items/sass" />
+      <recent name="$PROJECT_DIR$/src/sass" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +56,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624606485528</updated>
-      <workItem from="1624606498831" duration="9868000" />
+      <workItem from="1624606498831" duration="13981000" />
+      <workItem from="1624622785841" duration="584000" />
+      <workItem from="1624639726948" duration="2208000" />
+      <workItem from="1625060221270" duration="4680000" />
+      <workItem from="1625189383935" duration="295000" />
+      <workItem from="1625320727584" duration="410000" />
     </task>
     <servers />
   </component>
@@ -90,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
