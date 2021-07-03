@@ -1,5 +1,6 @@
 import './sass/App.css';
 import Expenses from "./components/expenses/Expenses";
+import NewExpense from './components/new-expense/NewExpense';
 
 function App() {
   const expenses = [
@@ -23,7 +24,8 @@ function App() {
     }
   ]
   return (
-     <>
+    <>
+      <NewExpense/>
        <Expenses items={expenses}/>
      </>
   );

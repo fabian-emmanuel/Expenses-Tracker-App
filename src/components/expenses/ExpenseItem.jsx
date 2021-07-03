@@ -10,9 +10,6 @@ const ExpenseItem = (props) => {
 
   const clickHandler = () => {
     setTitle("updated");
-    console.log('====================================');
-    console.log(title);
-    console.log('====================================');
   }
 
   return (
