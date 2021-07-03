@@ -2,7 +2,7 @@ import './new-expense.sass';
 import Expenseform from './ExpenseForm';
 
 
-const NewExpense = () => {
+const NewExpense = (props) => {
 
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
@@ -10,7 +10,7 @@ const NewExpense = () => {
       id: Math.random().toString
     };
 
-    console.log(expenseData);
+    props.onAddExpense(expenseData);
   }
 
   return <div className="new-expense">
