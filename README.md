@@ -1,1 +1,1 @@
-#           Expense Tracker Webapp
+#           Expense Tracker Web app (React)
